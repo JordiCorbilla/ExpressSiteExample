@@ -1,0 +1,24 @@
+{
+  "author": "Jordi Corbilla",
+  "dependencies": {
+    "express": "^4.13.4",
+    "pug": "^2.0.0-beta5",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.9.1",
+    "stylus": "^0.53.0"
+  },
+  "description": "A simple website in Node.js with Express, Stylus and Pug by Jordi Corbilla",
+  "license": "MIT",
+  "main": "app.js",
+  "name": "site",
+  "private": true,
+  "scripts": {
+    "build": "npm run clean && npm run build-css",
+    "build-css": "stylus stylesheets/index.styl -o static/css",
+    "clean": "rm -rf static/css && mkdir -p static/css",
+    "start": "node app.js",
+    "watch": "npm run clean && npm run watch-css & nodemon app -e js,pug",
+    "watch-css": "stylus stylesheets/index.styl -o static/css -w"
+  },
+  "version": "1.0.0"
+}
