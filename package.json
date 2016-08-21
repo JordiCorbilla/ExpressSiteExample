@@ -17,8 +17,8 @@
     "build-css": "stylus stylesheets/index.styl -o static/css",
     "clean": "rm -rf static/css && mkdir -p static/css",
     "start": "node app.js",
-    "watch": "npm run clean && npm run watch-css & nodemon app -e js,pug",
-    "watch-css": "stylus stylesheets/index.styl -o static/css -w"
+    "dev": "npm run clean && npm run dev-css & nodemon app -e js,pug",
+    "dev-css": "stylus stylesheets/index.styl -o static/css -w"
   },
   "version": "1.0.0"
 }
