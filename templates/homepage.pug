@@ -1,0 +1,14 @@
+extend default
+
+block content
+  p.
+    This is a simple example using <strong><a href="https://nodejs.org/en/">Node.js</a></strong> with <strong><a href="https://expressjs.com/">Express</a></strong>, <strong><a href="http://stylus-lang.com/">Stylus</a></strong> and <strong><a href="https://www.npmjs.com/package/pug">Pug</a></strong> and running on a Raspberry Pi 3 model B.
+
+  p.
+    You can see the article that accompanies this website <a href="https://github.com/JordiCorbilla/ExpressSiteExample">here</a>.
+
+  p.
+    Here is the status for the following nodes of the grid:
+  ul(data-bind="foreach:servers" style="list-style: none;")
+    li #[a(href='#' data-bind="text:name,attr:{href: 'http://'+name}") tester] #[span(data-bind="text:status,css:status")]
+

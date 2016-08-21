@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='/css/index.css')
+    title RPI STATUS MONITOR
+  body
+    .header
+      h1.page-title RPI STATUS MONITOR
+
+    ul(class="nav" style="margin-left: -528px;")
+      li: a(href='/') Home
+    
+    .main-content
+      block content
+      script(src="/Scripts/knockout-3.4.0.js")    
+      script(src="/Scripts/connectivity.js")
+
+    .footer
+      p Copyright &copy; 2016 Jordi Corbilla.
