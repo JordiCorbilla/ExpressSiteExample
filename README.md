@@ -10,13 +10,14 @@ Copy content of repository into website folder
 
 run the following commands:
 ```
-npm i
+sudo npm i
 npm run build
 npm start
 
 # development mode (monitors for source code changes)
 npm run dev
 ```
+![Screenshot](https://github.com/JordiCorbilla/ExpressSiteExample/blob/master/runningweb.png)
 
 ## Screenshot
 
