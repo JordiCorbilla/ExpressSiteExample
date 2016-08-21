@@ -22,6 +22,7 @@ npm run dev
 ## Screenshot
 
 ![Screenshot](https://github.com/JordiCorbilla/ExpressSiteExample/blob/master/rpimonitor.png)
+![Screenshot](https://github.com/JordiCorbilla/ExpressSiteExample/blob/master/rdppi.png)
 
 **Licence**
 -------
