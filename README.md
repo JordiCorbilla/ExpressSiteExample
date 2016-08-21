@@ -5,7 +5,9 @@ A simple website in Node.js with Express, Stylus and Pug.
 
 ## Setup
 Create website folder
+
 Copy content of repository into website folder
+
 run the following commands:
 ```
 npm i
