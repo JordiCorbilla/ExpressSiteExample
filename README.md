@@ -17,13 +17,13 @@ npm start
 # development mode (monitors for source code changes)
 npm run dev
 ```
-![Screenshot](https://github.com/JordiCorbilla/ExpressSiteExample/blob/master/runningweb.png)
+![Screenshot](https://github.com/JordiCorbilla/ExpressSiteExample/raw/master/runningweb.png)
 
 ## Screenshot
 
-![Screenshot](https://github.com/JordiCorbilla/ExpressSiteExample/blob/master/rpimonitor.png)
-![Screenshot](https://github.com/JordiCorbilla/ExpressSiteExample/blob/master/rdppi.png)
-![Screenshot](https://github.com/JordiCorbilla/ExpressSiteExample/blob/master/rpi.gif)
+![Screenshot](https://github.com/JordiCorbilla/ExpressSiteExample/raw/master/rpimonitor.png)
+![Screenshot](https://github.com/JordiCorbilla/ExpressSiteExample/raw/master/rdppi.png)
+![Screenshot](https://github.com/JordiCorbilla/ExpressSiteExample/raw/master/rpi.gif)
 
 **Licence**
 -------
